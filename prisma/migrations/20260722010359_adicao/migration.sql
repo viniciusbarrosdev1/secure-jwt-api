@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `User` ADD COLUMN `role` VARCHAR(191) NOT NULL DEFAULT 'user',
+    ADD COLUMN `tokenVersion` INTEGER NOT NULL DEFAULT 0;

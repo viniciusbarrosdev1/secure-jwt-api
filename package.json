@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "express": "^5.2.1",
+    "prisma": "^6.19.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "name": "secure-jwt-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusbarrosdev1/secure-jwt-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/viniciusbarrosdev1/secure-jwt-api/issues"
+  },
+  "homepage": "https://github.com/viniciusbarrosdev1/secure-jwt-api#readme"
+}
